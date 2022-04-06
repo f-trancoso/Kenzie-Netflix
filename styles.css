@@ -1,0 +1,149 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+body:not(i) {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 133px;
+}
+
+h2, h5 {
+    margin: 0;
+}
+
+h2 {
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.profile-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(164, 164, 164);
+    width: 160px;
+    height: 190px;
+}
+
+.profile-icon:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+.image:hover {
+    box-sizing: border-box;
+    border: white 2px solid;
+    cursor: pointer;
+}
+
+.fa-solid{
+    width: 160px;
+    height: 160px;
+    font-size: 95px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;;
+    opacity: 0.2;
+    transition: 0.3s;
+}
+
+.fa-solid:hover {
+    font-size: 109px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.fa-solid.fa-circle-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+#matheus {
+    background: url(images/avatar1.png);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+#ana {
+    background: url(images/avatar2.png);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+#elisa {
+    background: url(images/avatar3.png);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+#matheus:hover {
+    background-size:115%;
+    background-position:center;
+    transition-property:background-size;
+}
+
+#elisa:hover {
+    background-size:115%;
+    background-position:center;
+    transition-property:background-size;
+}
+
+#ana:hover {
+    background-size:115%;
+    background-position:center;
+    transition-property:background-size;
+}
+
+
+#manage-profiles {
+    height: auto;
+    width: 120px;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+
+#manage-profiles:hover {
+    background-color: #0A75EA;
+    border-color: #0A75EA;
+}
